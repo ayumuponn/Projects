@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    background-color: lightyellow;
+    height: 400px;
+    text-align: center;
+}
+
+/* 著作権有効 */
+.copyright-valid {
+    color: red;
+}
+
+/* 著作権失効済 */
+.copyright-expired {
+    color: green;
+}
+
+/* 結果表示欄 */
+#resultArea {
+    margin-top: 20px;
+    font-weight: bold;
+}
