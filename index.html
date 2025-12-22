@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>著作権判定</title>
-    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>著作権判定アプリ（日本国内版）</h1>
     <p>作曲者・編曲者・作詞者のうち最も最近の没年を入力：</p>
     <!-- 没年：deathYearInputでタグ付け -->
-    <input type ="number" id="deathYearInput" placeholder="例:1950"> 
+    <input type="number" id="deathYearInput" placeholder="例:1950">
     <button onclick="checkCopyright()">判定開始(Start)</button>
     <!-- 結果表示画面：resultArea -->
     <div id="resultArea"></div>
 
-    <script src="index.js"></script>    
+    <script src="script.js"></script>
 </body>
+
 </html>
