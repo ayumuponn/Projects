@@ -3,8 +3,11 @@ body {
     padding: 0;
     border: 0;
     font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    background-color: lightyellow;
+    background-color: lightsalmon;
+    display: block;
+    box-sizing: border-box;
     height: 400px;
+    width: 100%;
     text-align: center;
 }
 
@@ -23,3 +26,17 @@ body {
     margin-top: 20px;
     font-weight: bold;
 }
+
+/* モバイルファースト*/
+@media(min-width: 800px) {
+    body {
+        background: lightyellow;
+    }
+}
+
+/* @media (min-width: 600px) {
+    body {
+        /* width: calc((100% - 16px) / 2);
+        width: 100%; */
+    /* } */
+/* } */ 
