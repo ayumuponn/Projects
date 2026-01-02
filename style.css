@@ -11,6 +11,22 @@ body {
     text-align: center;
 }
 
+button {
+    all: unset; /*設定を一括リセットして再設定 */
+    padding: 4px 8px;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 300ms;
+
+}
+
+/* マウスを上にかざしたとき */
+button:hover {
+    background: black;
+    color: white;
+}
+
 /* 著作権有効 */
 .copyright-valid {
     color: red;
