@@ -1,4 +1,4 @@
-const PROTECTION_YEARS = 70; //著作権保護年数70年（2018年12月30日施行、2018年12月30日までは没後50年のため条件分岐の機能追加が必須）
+const PROTECTION_YEARS = 70; //著作権保護年数70年（2018年12月30日施行没後70年、1970年～2018年12月30日までは没後50年、1899年当時は保護期間没後30年（無名変名および団体名義は公表後30年）、その後1969年には没後38年まで延びた。したがって、条件分岐の機能追加が必須である）
 
 function checkCopyright() { //著作権判定
     const deathYear = document.querySelector(`#deathYearInput`).value;
