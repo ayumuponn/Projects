@@ -11,6 +11,16 @@ body {
     text-align: center;
 }
 
+#warning {
+    font-size: 32px;
+    color: red;
+    font-weight: bold;
+}
+
+.rule {
+    font-weight: bold;
+}
+
 button {
     all: unset; /*設定を一括リセットして再設定 */
     padding: 4px 8px;
@@ -41,6 +51,13 @@ button:hover {
 #resultArea {
     margin-top: 20px;
     font-weight: bold;
+}
+
+footer {
+    margin-top: 24px;
+    border-top: 1px solid #ccc;
+    padding:10px;
+    font-size: 0.8em;
 }
 
 /* モバイルファースト*/
